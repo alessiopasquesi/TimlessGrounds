@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeless Grounds - Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Order</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Place Your Order</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="order-item">Select an Item:</label>
+      <select id="order-item" name="order-item">
+        <option value="retro-latte">Retro Latte</option>
+        <option value="neon-berry-muffin">Neon Berry Muffin</option>
+        <option value="classic-espresso">Classic Espresso</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Anything you'd like to add?"></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </main>
+  <footer>
+    <p>Timeless Grounds, 222 Bonita Lane, Chicago, IL</p>
+    <p>Email: info@timelessgrounds.com | Phone: 123-321-1234</p>
+    <p>Follow us: Instagram, Facebook, Twitter | Hours: Mon-Sun: 7 AM - 4 PM</p>
+  </footer>
+</body>
+</html>
