@@ -102,9 +102,9 @@ form button:hover {
     background-color: #ffd700; /* Lighter hover effect */
 }
 
-.decade-images img {
-    width: 300px; /* Adjust as needed */
-    height: auto; /* Keeps the aspect ratio */
-    margin: 10px auto; /* Adds space between images */
-    display: block; /* Centers the images */
+.decade-images img, main img {
+    width: 250px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center images with spacing */
+    display: block; /* Ensure images are centered */
 }
