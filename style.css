@@ -77,7 +77,10 @@ form label {
     color: #f0e68c; /* Updated label color */
 }
 
-form input, form select, form textarea, form button {
+form input,
+form select,
+form textarea,
+form button {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -86,7 +89,9 @@ form input, form select, form textarea, form button {
     font-size: 1rem;
 }
 
-form input, form select, form textarea {
+form input,
+form select,
+form textarea {
     background-color: #333;
     color: #fff;
 }
@@ -102,7 +107,8 @@ form button:hover {
     background-color: #ffd700; /* Lighter hover effect */
 }
 
-.decade-images img, main img {
+.decade-images img,
+main img {
     width: 250px; /* Adjust width */
     height: auto; /* Maintain aspect ratio */
     margin: 10px auto; /* Center images with spacing */
